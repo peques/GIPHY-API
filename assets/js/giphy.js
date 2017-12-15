@@ -33,7 +33,9 @@ $("button").on("click", function() {
 
 
 //ADD BUTTON//
+//targetting the submit button by its class id of #addChar
 $("#addChar").on("click", function(e) {
+    //this will prevent data being erased from text box after clicking submit button
     e.preventDefault();
 
 
